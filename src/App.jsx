@@ -17,8 +17,7 @@ const Container = styled.div`
 
 function App() {
   
-  return 
-  <ThemeProvider theme={theme}>
+  return <ThemeProvider theme={theme}>
     <Container>
             <Header/>
             <Footer/>    
